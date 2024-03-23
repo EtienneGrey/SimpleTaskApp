@@ -31,10 +31,34 @@
 </div>
 <br>
 I created a super simple task app with <code>Swift</code> & <code>SwiftUI</code> utilizing <code>SwiftData</code>. The sole purpose for this build was to create simple <code>CRUD</code> operations within a local device setting. 
+<br>
+<br>
+
+SimpleTaskApp uses an Model-View-ViewModel (MVVM) architecture. It consists of four views: 
+<li>
+  <ol>ContentView</ol>
+</li>
+<li>
+  <ol>AddItemView</ol>
+</li>
+<li>
+  <ol>UpdateItemView</ol>
+</li>
+<li>
+  <ol>AddCategoryView</ol>
+</li>
+
+SimpleTaskApp contains two <code>SwiftData</code> models:
+<li>
+  <ol>TaskItem</ol>
+</li>
+<li>
+  <ol>Category</ol>
+</li>
+
+Each <code>TaskItem</code> has an optional <code>category</code> relationship.
 
 ### Built With
-
-
 
 <span>
 <img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png" alt="swift">
